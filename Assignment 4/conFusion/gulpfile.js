@@ -66,7 +66,7 @@ gulp.task('imagemin', function() {
         return stream
           .pipe(usemin({
               css: [ rev() ],
-              html: [ function() { return htmlmin({ collapseWhitespace: true })} ],
+              html: [ function() { return htmlmin({ collapseWhitespace: true, removeComments: true })} ],
               js: [ uglify(), rev() ],
               inlinejs: [ uglify() ],
               inlinecss: [ cleanCss(), 'concat' ]
