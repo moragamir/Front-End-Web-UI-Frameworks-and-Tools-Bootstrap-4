@@ -51,3 +51,15 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+.modal .modal-header {
+  background-color: #512DA8;
+  color: floralwhite; }
+  .modal .modal-header button {
+    color: floralwhite; }
+
+.modal .modal-body {
+  background-color: #D1C4E9; }
+
+.modal .modal-footer {
+  background: #9575CD; }
